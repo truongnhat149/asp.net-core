@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+  <appSettings>
+    
+    <add key="Position" value="FormCarton"/>
+    <add key="Sql_Connection" value="Data Source=10.4.24.114;Initial Catalog=DailyReportF4;User ID={0};Password={1};" />
+    <add key="Sql_User" value="user" />
+    <add key="Sql_Pass" value="user" />
+    <add key="Mysql_Connection" value="Server=10.4.17.62;Database=Packing;Port=3306;Uid={0};Pwd={1};SslMode=none;CharSet=utf8;respect binary flags=false;Allow User Variables=True" />
+    <add key="Mysql_User" value="thuy" />
+    <add key="Mysql_Pass" value="123456" />
+  </appSettings>
+<system.data>
+    <DbProviderFactories>
+      <remove invariant="MySql.Data.MySqlClient" />
+      <add name="MySQL Data Provider" invariant="MySql.Data.MySqlClient" description=".Net Framework Data Provider for MySQL" type="MySql.Data.MySqlClient.MySqlClientFactory, MySql.Data, Version=6.7.9.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d" />
+    </DbProviderFactories>
+  </system.data>
+</configuration>
